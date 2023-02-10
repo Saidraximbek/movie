@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #EBEBF8;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+nav{
+   width: 20%;
+   background-color: #1C1D30;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 4rem 0 0 4rem;
+   gap: 20rem;
+}
+
+.navbar--home--items{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hero--items{
+    width: 80%;
+    background-color: #13131D;
+    padding: 3rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.navbar--home{
+    font-size: 18px;
+    color: #EBEBF8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar--profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: #EBEBF8;
+    font-size: 18px;
+}
+
+.navbar--profile img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbar--home img{
+    border-radius: 50%;
+    background-color: #EBEBF8;
+    width: 3rem;
+}
+
+.hero--items input{
+    width: 100%;
+    height: 3.5rem;
+    background-color: #1C1D30;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #EBEBF8;
+    text-align: center;
+}
+
+.premyera{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.premyera h2, .trending h2{
+    font-size: 18px;
+}
+
+.premera--movies{
+    overflow-x: scroll;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.premera--movies img {
+    width: 25%;
+    border-radius:10px;
+}
+
+.premera--movies::-webkit-scrollbar{
+     width: 5rem;
+}
+
+.premera--movies::-webkit-scrollbar-thumb{
+    background-color: #1C1D30;
+    border-radius: 5px;
+}
+
+.trending--movies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.trending--movies img{
+    border-radius: 5px;
+}
